@@ -1,24 +1,3 @@
-# Which? Front-end Exercise
-
-This repository provides information and a project boilerplate for completing the test exercise sent to candidates applying for front-end roles at Which?.
-
-## Getting up and running
-
-This repository provides a starting point for the test but if you'd rather start from scratch with your own setup that's fine too, as long as you complete [the exercise](#the-exercise).
-
-We have provided a [Webpack] and [Babel] based development environment which can compile and bundle your source code. It also includes a [server] which will automatically reload your code changes in the browser.
-
-Which? primarily uses [React] and [TypeScript] in our front-end projects but you can use vanilla JavaScript or other tools if you prefer. We have not provided any tooling to work with anything beyond vanilla JavaScript.
-
-We have provided [Jest] to test your code which is a fully featured testing framework. It includes a test runner, assertions, and mock functions.
-
-[react]: https://reactjs.org/
-[typescript]: https://www.typescriptlang.org/
-[webpack]: https://webpack.js.org/
-[babel]: https://babeljs.io/
-[server]: https://github.com/webpack/webpack-dev-server
-[jest]: https://jestjs.io/
-
 ### Requirements
 
 To get started you'll need to make sure you have the following software tools installed:
