@@ -89,4 +89,24 @@ This is a list of changes required to add react and typescript support to the pr
 
 #### Peer Dependencies updates
 
-webpack >=5 is needed
+webpack >=5 is needed for the latest verison babel-loader, so updated.
+
+#### Changes in React 18
+
+- Implicit children prop for functional components has been removed. Reason here - https://solverfox.dev/writing/no-implicit-children/.
+
+#### Testing
+
+- Added React testing library and changed the jest test environment to jsDom to enable UI tests.
+
+### Performance improvement for multiple check util
+
+- Added a hash map to store multiple checks that are computed already, to avoid multiplication again.
+
+### Improvements if I had more time
+
+If I had more time, I would improve these things:
+
+- Write more unit (UI) tests for all components.
+- Use an atomic styling system for styled components insteading of hardcoding values.
+- Test the look and feel of the button on several browsers and operating systems to make sure the styling works perfectly on all (or may be changed this to a div with role button and implement button behaviour from scratch for a more uniform look and feels across all browsers)
